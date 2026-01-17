@@ -29,3 +29,19 @@ console.log("y is an even", y % 2 !== 0);
 // - [ ] Check if the age is elligible for a driving license and print it on the console accordingly.
 let age = 20;
 console.log("Eligible for driving license:", age >= 18);
+
+//## 3. Calculate CTC with a Bonus
+
+//Let's calculate how much you earn from your office.
+
+//- [ ] You get 12,300 rupees as your monthly salary.
+//- [ ] You get a 20% bonus on your annual salary.
+//- [ ] How much money do you make per annum as a CTC?
+let monthlySalary = 12300;
+let bonusPercentage = 0.2;
+let annualSalary = monthlySalary * 12;
+let bonus = annualSalary * bonusPercentage;
+let ctc = annualSalary + bonus;
+console.log("Annual Salary:", annualSalary);
+console.log("Bonus:", bonus);
+console.log("CTC:", ctc);
