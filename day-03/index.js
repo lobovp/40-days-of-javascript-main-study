@@ -57,3 +57,21 @@ console.log(
   "Traffic Light:",
   color === "Red" ? "STOP" : color === "Green" ? "GO" : "Invalid Color",
 );
+
+// ## 5. Electricity Bill Calculation
+// Let's calculate how much you pay for electricity bills per month and annually.
+
+// - [ ] Create a `units` variable. Based on this value you will calculate the total electricity bill for a months.
+// - [ ] If each day you consume the `units` and each unit cost 150 rupees, how much will you be charged per month?
+// - [ ] If there is a 20% discount on the annual payment, how much will you be charged for an annual payment?
+let units = 15; // units consumed per day
+let costPerUnit = 150; // cost per unit in rupees
+let daysInMonth = 30;
+let monthlyBill = units * costPerUnit * daysInMonth;
+let discountPercentage = 0.2;
+let monthlyBillWithDiscount = monthlyBill * (1 - discountPercentage);
+console.log("Monthly Electricity Bill:", monthlyBill);
+console.log(
+  "Annual Electricity Bill with 20% discount:",
+  monthlyBillWithDiscount * 12,
+);
