@@ -75,3 +75,14 @@ console.log(
   "Annual Electricity Bill with 20% discount:",
   monthlyBillWithDiscount * 12,
 );
+// ## 6. Leap Year Checker
+
+// Is 2025 a Leap Year?
+
+// - [ ] Take `year` as input.
+// - [ ] Use the arithmetic operator and ternary operator to print if a year is a leap year or not.
+let year = 2025;
+console.log(
+  "Leap Year:",
+  (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0 ? "Yes" : "No",
+);
