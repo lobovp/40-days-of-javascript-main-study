@@ -81,8 +81,8 @@ console.log(
 
 // - [ ] Take `year` as input.
 // - [ ] Use the arithmetic operator and ternary operator to print if a year is a leap year or not.
-let year = 2025;
+let year = 2028;
 console.log(
-  "Leap Year:",
+  "Leap Year:" + year,
   (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0 ? "Yes" : "No",
 );
